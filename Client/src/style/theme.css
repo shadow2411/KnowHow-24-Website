@@ -1,0 +1,122 @@
+:root {
+  --back: #f8f4ea;
+  --navy: #1f2b3f;
+  --orange: #ea8f33;
+  --orange-gradient: radial-gradient(circle, #fbc725 0%, #ea8433 100%);
+  --white-gradient: radial-gradient(circle, white 0%, #eee2dc 100%);
+}
+
+/* All pages common */
+.home,
+#team,
+#register,
+#result,
+#receipt,
+#about,
+.event {
+  /* background-color: var(--back); */
+  background: var(--white-gradient);
+  font-weight: bold;
+  font-size: 0.9em;
+  color: black;
+}
+
+/* Common - card */
+#drive {
+  background: var(--white-gradient);
+}
+
+/* Home */
+/* #schedule-img {
+  min-height: 12em;
+} */
+
+/* Common - card, Register - submit button */
+#card,
+#submit {
+  background: var(--orange-gradient);
+}
+
+/* Register - form */
+.form-control,
+.form-select,
+.form-check-input {
+  --bs-border-color: #ea8f33;
+}
+
+/* Common - Header, Footer */
+#all,
+#footer {
+  background-color: var(--navy);
+  color: var(--back);
+}
+#nav {
+  --bs-nav-link-color: var(--back);
+  --bs-nav-link-hover-color: var(--orange);
+  font-weight: 600;
+}
+#events {
+  color: var(--back);
+  font-weight: 600;
+}
+.dropdown-menu {
+  --bs-body-color: var(--navy);
+}
+.dropdown-item {
+  --bs-dropdown-link-active-color: var(--back);
+  --bs-dropdown-link-active-bg: var(--navy);
+}
+.navbar-toggler {
+  --bs-navbar-color: var(--back);
+}
+
+/* Table in Receipt */
+.logo-table {
+  border: 1px solid #ffffff;
+  border-collapse: collapse;
+}
+.logo-table td {
+  border: none;
+  margin-top: 1px;
+}
+img.logo {
+  width: 100%;
+  max-width: 250px; /* Adjust as needed */
+  height: auto;
+}
+.invoice-container {
+  width: 80%;
+  margin: 50px auto;
+  border: 2px solid #000;
+  padding: 7px;
+  position: relative;
+}
+.header {
+  font-size: auto;
+  color: #1f2b3f;
+}
+.line {
+  border-top: 2px solid #f00;
+  margin: 10px 0;
+}
+.event-name {
+  background-color: #fcb725;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+th {
+  border: 1px solid #000;
+  padding: 10px;
+}
+td {
+  border: 1px solid #000;
+  padding: auto;
+}
+
+/* USED COLORS */
+/* f8f4ea == background color final */
+/* pinkish white radial background mate*/
+/* background: radial-gradient(circle, hsla(0, 0%, 100%, 1) 0%, hsla(20, 35%, 90%, 1) 100%); */
